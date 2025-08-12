@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Syahrul <span>Azka</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Achievements</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span>Syahrul Azka</span></h1>
+                <h2>Artificial Intelligence/Machine Learning & Data Science</h2>
+                <p>Transform data into valuable insights and build intelligent AI/ML models to enhance decision-making.</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View Portfolios</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="static/img/profile.png" alt="Syahrul Azka">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="static/img/about.jpeg" alt="About Me">
+                </div>
+                <div class="about-text">
+                    <h3>Data Scientist</h3>
+                    <p>I am a data scientist with a strong background in mathematics and statistics, dedicated to transforming complex data into meaningful insights and intelligent solutions. By combining analytical thinking with a deep understanding of patterns and trends, I develop AI-driven systems that optimize processes, enhance decision-making, and drive innovation. I believe that data is more than just numbers—it tells a story, uncovers hidden opportunities, and has the power to shape the future in impactful ways.</p>
+                    <a href="https://shorturl.at/vMcer" class="btn btn-primary" target="_blank">View CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Project Portfolio</h2>
+            
+            <div class="portfolio-carousel-wrapper">
+                <div class="portfolio-grid">
+                    <!-- Original items -->
+                    <div class="portfolio-item" data-category="computer-vision">
+                        <img src="static/img/projects/project1.jpeg" alt="Face Recognition">
+                        <div class="portfolio-overlay">
+                            <h3>Face Recognition</h3>
+                            <p>Streamlit, Deepface, QlickHouse</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="computer-vision">
+                        <img src="static/img/projects/project2.jpeg" alt="Object Detection">
+                        <div class="portfolio-overlay">
+                            <h3>Object Detection</h3>
+                            <p>YOLOv8, Roboflow</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="nlp">
+                        <img src="static/img/projects/project3.jpeg" alt="Pantau Politik">
+                        <div class="portfolio-overlay">
+                            <h3>Pantau Politik</h3>
+                            <p>RAG, Text Summarization, Text Similarity</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="machine-learning">
+                        <img src="static/img/projects/project4.jpeg" alt="SmileSaver">
+                        <div class="portfolio-overlay">
+                            <h3>SmileSaver</h3>
+                            <p>Tensorflow, Tensorflow Lite, CNN</p>
+                        </div>
+                    </div>
+                    <!-- Duplicated items -->
+                    <div class="portfolio-item" data-category="computer-vision">
+                        <img src="static/img/projects/project1.jpeg" alt="Face Recognition">
+                        <div class="portfolio-overlay">
+                            <h3>Face Recognition</h3>
+                            <p>Streamlit, Deepface, QlickHouse</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="computer-vision">
+                        <img src="static/img/projects/project2.jpeg" alt="Object Detection">
+                        <div class="portfolio-overlay">
+                            <h3>Object Detection</h3>
+                            <p>YOLOv8, Roboflow</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="nlp">
+                        <img src="static/img/projects/project3.jpeg" alt="Pantau Politik">
+                        <div class="portfolio-overlay">
+                            <h3>Pantau Politik</h3>
+                            <p>RAG, Text Summarization, Text Similarity</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="machine-learning">
+                        <img src="static/img/projects/project4.jpeg" alt="SmileSaver">
+                        <div class="portfolio-overlay">
+                            <h3>SmileSaver</h3>
+                            <p>Tensorflow, Tensorflow Lite, CNN</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-item">
+                    <img src="static\img\ttg_photo.jpg" alt="Achievement 1">
+                    <div class="achievement-title">
+                        <h3>Juara 1 Lomba TTG Tangerang Selatan 2025</h3>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <img src="static\img\nicyms_photo.jpg" alt="Achievement 2">
+                    <div class="achievement-title">
+                        <h3>Medali Silver Lomba NICYMS 2024</h3>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <img src="static\img\pedas_photo.jpg" alt="Achievement 3">
+                    <div class="achievement-title">
+                        <h3>Juara 3 Lomba Pesta Data Nasional 2024</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Feb 2025 - Jul 2025</div>
+                        <h3>Data Scientist Intern</h3>
+                        <h4>PT Telekomunikasi Indonesia (Telkom)</h4>
+                        <p>Analyzed customer chat logs to identify recurring questions and enhance the chatbot knowledge base. Built dashboards to monitor complaints during peak periods and conducted retention analysis to support targeted campaigns. Implemented a real-time data pipeline between databases, automated complaint classification using internal LLMs, optimized SQL queries for reporting, and created Excel-based scorecards for customer service teams.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Jan 2025 - Mar 2025</div>
+                        <h3>Data Engineer Intern</h3>
+                        <h4>RegTech.ID</h4>
+                        <p>Automated web scraping using Python, Selenium, and BeautifulSoup to extract structured data from dynamic web pages, significantly reducing manual collection time. Collaborated with cross-functional teams to build and maintain efficient data workflows for AI-powered regulatory analysis. Used Git for version control and coordinated development with multiple contributors to ensure clean and collaborative code practices.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Jan 2024 - Des 2024</div>
+                        <h3>Junior Data Analyst Intern</h3>
+                        <h4>Taudata Analytics</h4>
+                        <p>Designed and developed a 10-node cluster computing system for distributed processing using Apache Spark and OpenMPI, optimized for big data and machine learning workloads. Delivered a cost-efficient, portable, and energy-efficient infrastructure for educational use in Big Data and AI learning. Documented system architecture, deployment steps, and performance benchmarks to ensure reproducibility and scalability in academic environments.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Feb 2024 - Mar 2024</div>
+                        <h3>AI & Data Analytics Intern</h3>
+                        <h4>PT Media Kode Indonesia</h4>
+                        <p>Developed a face recognition–based attendance system using FaceNet, Python, OpenCV, and DeepFace, integrated with a SQL database for data storage. Built a Streamlit web interface for real-time face verification and automated attendance logging. Deployed and tested the system in an office environment, improving tracking efficiency and reducing manual input errors.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Jakarta, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>syahrulazka91@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/syahrul-azka/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/syahrulazka" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        <a href="https://instagram.com/_syahrulazka" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/mqalnlov" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="chat-container">
+        <div class="chat-button">
+            <i class="fas fa-comment"></i>
+        </div>
+        <div class="chat-box">
+            <div class="chat-header">
+                <h3>Azka's AI Assistant</h3>
+                <div class="close-chat">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="chat-messages">
+                <div class="message bot">
+                    <p>Halo! Saya AI Asisten Azka. Ada yang ingin anda ketahui tentang Azka?</p>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Ketik pesan Anda...">
+                <button class="send-button">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Syahrul <span>Azka</span></h3>
+                </div>
+                <p>© 2025 Syahrul Azka. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="static/js/main.js"></script>
+</body>
+</html>
