@@ -300,6 +300,11 @@ nav ul li a:hover::after, nav ul li a.active::after {
     background-color: var(--background-alt);
 }
 
+.portfolio .container {
+    max-width: none;
+    padding: 0;
+}
+
 .portfolio-filter {
     display: flex;
     justify-content: center;
@@ -335,8 +340,8 @@ nav ul li a:hover::after, nav ul li a.active::after {
     gap: 30px;
     /* Remove overflow: hidden from here */
     /* Remove animation from here */
-    width: 3010px; /* (8 items * 350px) + (7 gaps * 30px) */
-    animation: scrollPortfolio 40s linear infinite; /* Apply animation here */
+    width: 4530px; /* (12 items * 350px) + (11 gaps * 30px) */
+    animation: scrollPortfolio 20s linear infinite; /* Apply animation here */
 }
 
 .portfolio-grid:hover {
@@ -348,7 +353,7 @@ nav ul li a:hover::after, nav ul li a.active::after {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-1490px); /* Move the width of one set of items (4 items, 3 gaps) */
+        transform: translateX(-2250px); /* Move the width of one set of items (6 items, 5 gaps) */
     }
 }
 
